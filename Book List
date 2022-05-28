@@ -1,0 +1,17 @@
+/** Book list:
+Rich Dad, Poor Dad (5)
+Harry Potter (4)
+Man Called Ove (1) 
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name Text, rating INTEGER);
+
+INSERT INTO books VALUES (1, "Rich Dad, Poor Dad" , 5);
+INSERT INTO books VALUES (2, "Harry Potter", 4);
+INSERT INTO books VALUES (3, "Man Called Ove", 1); 
+SELECT * FROM books;
+
+This was a starter for SQL where you select the books to make a table
+The Table had ID, (1,2,3)
+Book Title ( Rich Dad, Poor Dad, Harry Potter, and Man Called Ove) 
+Rating (5,4,1)
